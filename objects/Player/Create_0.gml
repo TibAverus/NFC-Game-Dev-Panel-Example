@@ -1,0 +1,4 @@
+XSPEED =			0;
+YSPEED =			0;
+GRAVITY =			10;
+JUMP_STRENGTH =		20;

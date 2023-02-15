@@ -1,0 +1,1 @@
+move_and_collide(2, YSPEED, Collision);

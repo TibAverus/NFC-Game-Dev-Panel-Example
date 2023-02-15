@@ -15,5 +15,12 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_BigRoom","order":2,"path":"sprites/spr_BigRoom/spr_BigRoom.yy",},
+    {"name":"Cheese","order":2,"path":"objects/Cheese/Cheese.yy",},
+    {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"CheeseBit","order":3,"path":"objects/CheeseBit/CheeseBit.yy",},
+    {"name":"SPR_PLACEHOLDER_PLAYER_IDLE","order":3,"path":"sprites/SPR_PLACEHOLDER_PLAYER_IDLE/SPR_PLACEHOLDER_PLAYER_IDLE.yy",},
+    {"name":"SPR_PLACEHOLDER_CHEESE_BIT","order":1,"path":"sprites/SPR_PLACEHOLDER_CHEESE_BIT/SPR_PLACEHOLDER_CHEESE_BIT.yy",},
+  ],
 }

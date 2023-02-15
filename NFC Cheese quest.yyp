@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":0,},
@@ -32,8 +32,15 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
-    {"id":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},"order":0,},
-    {"id":{"name":"spr_PLACEHOLDER_BOUNDS","path":"sprites/spr_PLACEHOLDER_BOUNDS/spr_PLACEHOLDER_BOUNDS.yy",},"order":0,},
+    {"id":{"name":"spr_BigRoom","path":"sprites/spr_BigRoom/spr_BigRoom.yy",},"order":0,},
+    {"id":{"name":"Cheese","path":"objects/Cheese/Cheese.yy",},"order":0,},
+    {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
+    {"id":{"name":"CheeseBit","path":"objects/CheeseBit/CheeseBit.yy",},"order":0,},
+    {"id":{"name":"SPR_PLACEHOLDER_PLAYER_IDLE","path":"sprites/SPR_PLACEHOLDER_PLAYER_IDLE/SPR_PLACEHOLDER_PLAYER_IDLE.yy",},"order":0,},
+    {"id":{"name":"SPR_PLACEHOLDER_CHEESE_BIT","path":"sprites/SPR_PLACEHOLDER_CHEESE_BIT/SPR_PLACEHOLDER_CHEESE_BIT.yy",},"order":0,},
+    {"id":{"name":"Collision","path":"objects/Collision/Collision.yy",},"order":0,},
+    {"id":{"name":"spr_Collision","path":"sprites/spr_Collision/spr_Collision.yy",},"order":0,},
+    {"id":{"name":"GlobalVariables","path":"scripts/GlobalVariables/GlobalVariables.yy",},"order":0,},
     {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
