@@ -1,4 +1,6 @@
-globalvar CheeseCollected;
+globalvar CheeseCollected, COLLISION_OBJECT;
+
+COLLISION_OBJECT = Collision;
 
 function ResetGlobals()
 {
