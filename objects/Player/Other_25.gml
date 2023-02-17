@@ -5,10 +5,9 @@ init_sprites = function()
 	var _i = 0; 
 	repeat (argument_count div 2)
 	{
-		var _noPipe = asset_get_index("spr_AmberRework_" + argument[_i + 1]);
-		if (_noPipe == -1) _noPipe = spr_AmberRework_Idle;
+		var _sprName = asset_get_index("spr_Mausie_" + argument[_i + 1]);
 		
-		sprites[$ argument[_i]] = _noPipe;
+		sprites[$ argument[_i]] = _sprName;
 		_i += 2;
 	}
 };
@@ -95,5 +94,5 @@ set_movement = function()
 	var _dir = input.hdir;
 	if (_dir != 0) facing = _dir;
 
-	XSPEED = CURRENT_MOVE_SPEED * _dir;
+	XSPEED = WALK_SPEED * _dir;
 };

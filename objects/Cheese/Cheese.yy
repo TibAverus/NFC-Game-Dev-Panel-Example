@@ -11,7 +11,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "_Parent_PickupObjects",
+    "path": "objects/_Parent_PickupObjects/_Parent_PickupObjects.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_Cheese",
+    "path": "sprites/spr_Cheese/spr_Cheese.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

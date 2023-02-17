@@ -19,10 +19,20 @@ fsm
 	.add_transition("t_transition", ["jump", "walk", "idle"], "fall",
 		function()
 		{
-			return !on_ground();
+			return !on_ground() && YSPEED > 0;
 		})
 	.add_transition("t_transition", "fall", "idle",
 		function()
 		{
 			return on_ground();
+		})
+	.add_transition("t_transition", "idle", "sleep_start",
+		function()
+		{
+			return input_check("down");
+		})
+	.add_transition("t_transition", "sleep_loop", "wakeup",
+		function()
+		{
+			return input_check(["left", "right", "jump"]);
 		});
